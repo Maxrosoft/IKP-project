@@ -1,0 +1,95 @@
+table {
+    margin: auto;
+    border-collapse: collapse;
+}
+
+td, th {
+    padding: 10px;
+    text-align: left;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+p {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: disc;
+    margin: 1em 0;
+    padding-left: 2em;
+}
+
+ul li:hover {
+    background-color: #f2f2f2;
+}
+
+ul li:nth-child(2n):hover {
+    background-color: #e6e6e6;
+}
+
+ul li:nth-child(3n):hover {
+    background-color: #d9d9d9;
+}
+
+a {
+    font-size: 16px;
+    color: #919191;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+}
+
+a:hover {
+    font-size: 18px;
+    color: #FFA500;
+}
+
+figcaption {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.author, .academic-year {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.sources {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.sources a {
+    color: blue;
+    text-decoration: none;
+}
+
+.sources a:hover {
+    text-decoration: underline;
+}
